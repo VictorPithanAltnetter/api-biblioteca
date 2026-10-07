@@ -55,7 +55,7 @@ async function excluir(req, res) {
     }
 
     res.json({
-        mensagem: "Livro excluído com sucesso",
+        mensagem: "Livro desativado com sucesso",
         livro
     });
 }
